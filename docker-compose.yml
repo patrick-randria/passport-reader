@@ -1,0 +1,8 @@
+version: '3'
+services:
+    web:
+        build: ./flask
+        ports:
+            - "5000:5000"
+        volumes:
+            - ./flask:/flask
